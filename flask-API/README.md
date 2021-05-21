@@ -5,7 +5,7 @@ This is a bare-bones example of a task specified in Devsnest's [`WEB DEV Intro |
 
 The entire application is contained within the `flaskapi.py` file.
 
-
+The repo also holds [`devsnest-flask-api.postman_collection.json`](devsnest-flask-api.postman_collection.json/) which can be imported as POSTMAN collection
 ## Install
 `pip3 install -r requirements.txt`
 
