@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="cal.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>SIMPLE CALCULATOR</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" id="inp1" name="inp1" value="Enter First Number" onfocus="this.value=''" />
+            <input type="text" id="inp2" name="inp2" value="Enter Second Number" onfocus="this.value=''" />
+        </div>
+
+        <div class="buttons">
+            <button onclick="addition()">ADDITION</button>
+            <button onclick="subtraction()">SUBSTRACT</button>
+            <button onclick="multiplication()">MULTIPLY</button>
+            <button onclick="division()">DIVIDE</button>
+        </div>
+
+        <div>
+            <button class="submit" onclick="submit()">CALCULATE</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
